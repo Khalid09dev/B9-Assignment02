@@ -1,3 +1,152 @@
 * {
-    background-color: red;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header section starts here  */
+header {
+    background-color: #FFF;
+}
+
+/* css for navbar logo start  */
+.navbar .hero-travel-logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 50px;
+}
+
+.navbar .hero-travel-logo h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.navbar .hero-travel-logo .span-travel {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+/* css for navbar logo end  */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding-top: 40px;
+}
+
+.navbar ul {
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+    gap: 45px;
+    padding-left: 50px;
+}
+
+.navbar ul a {
+    text-decoration: none;
+}
+
+.navbar .span-home {
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.navbar ul li a {
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* css for navbar end  */
+
+.explore-your-travel {
+    background-image: url('../images/explore-travel-bg.png');
+    background-repeat: no-repeat;
+    margin-left: 120px;
+    margin-top: 45px; 
+}
+
+.explore-your-travel h1 {
+    padding-top: 100px;
+    padding-left: 330px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.explore-your-travel p {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 20px;
+    padding-right: 90px;
+}
+
+.explore-your-travel .find-now {
+    margin-left: 320px;
+    padding-top: 30px;
+}
+
+.explore-your-travel .find-now .where-go-box {
+    /* padding-right: 10px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 8px;
+    border: 0px;
+    margin-right: 30px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400px;
+    padding-left: 10px;
+    color: rgba(19, 19, 24, 0.50);
+    background-color: #FFF;
+}
+
+.explore-your-travel .find-now .when-box {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    font-family: Mulish;
+    padding-right: 100px;
+    border: 0px;
+    margin-right: 30px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.explore-your-travel .find-now .select-type-box {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 60px;
+    font-family: Mulish;
+    border: 0px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    border-radius: 8px;
+    margin-right: 30px;
+    background-color: #FFF;
+}
+
+.explore-your-travel .find-now .find-now-btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 40px;
+    background-color: #FFF;
+    position: relative;
+    margin-right: 70px;
 }
