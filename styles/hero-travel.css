@@ -31,6 +31,7 @@ header {
 }
 /* css for navbar logo end  */
 
+/* css for navbar links start  */
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -65,18 +66,20 @@ header {
     font-size: 18px;
     font-weight: 400;
 }
-/* css for navbar end  */
+/* css for navbar links end  */
 
+/* css for travel part  */
 .explore-your-travel {
     background-image: url('../images/explore-travel-bg.png');
     background-repeat: no-repeat;
     margin-left: 120px;
     margin-top: 45px; 
+    height: 500px;
 }
 
 .explore-your-travel h1 {
     padding-top: 100px;
-    padding-left: 330px;
+    padding-left: 313px;
     color: #FFF;
     font-family: Mulish;
     font-size: 64px;
@@ -90,16 +93,21 @@ header {
     text-align: center;
     font-weight: 400;
     margin-top: 20px;
+    margin-bottom: 50px;
     padding-right: 90px;
 }
 
 .explore-your-travel .find-now {
-    margin-left: 320px;
-    padding-top: 30px;
+    margin-left: 210px;
+    padding-top: 35px;
+    display: inline;
+    padding-left: 20px;
+    justify-content: space-around;
+    padding-bottom: 35px;
+    background-color: rgba(255, 255, 255, 0.30);
 }
 
 .explore-your-travel .find-now .where-go-box {
-    /* padding-right: 10px; */
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 8px;
@@ -144,9 +152,755 @@ header {
 .explore-your-travel .find-now .find-now-btn {
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-right: 20px;
-    padding-left: 40px;
-    background-color: #FFF;
+    padding-right: 35px;
+    background-color: #FF5400;
+    padding-left: 30px;
+    color: #FFF;
+    font-family: Mulish;
+    font-weight: 700;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+/* css for travel part end  */
+/* header section end  */
+
+/* css for popular tour section  */
+.popular-tour-section {
+    display: flex;
+    gap:  20px;
+    margin-top: 100px;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+.popular-tour-section h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.popular-tour-section ul li {
+    margin-left: 55px;
+    color:rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.popular-tour-section p {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.popular-tour-section button {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 13px 34px;
+    border-radius: 8px;
+    border: 0px;
+    cursor: pointer;
+    background-color: #FF5400;
+}
+/* css for popular tour section end  */
+
+
+/* css for your destination section start  */
+.your-destination-section {
+    margin-top: 120px;
+}
+
+.your-destination-section h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.your-destination-section p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+
+.your-destination-section .maldives {
     position: relative;
-    margin-right: 70px;
+    left: 120px;
+}
+
+.your-destination-section .maldives h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 180px;
+    left: 230px;
+}
+
+.your-destination-section .indonesia {
+    position: relative;
+    left: 720px;
+    bottom: 338px;
+}
+
+.your-destination-section .indonesia h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    bottom: 171px;
+    left: 220px;
+    position: relative;
+}
+
+.your-destination-section .srilanka {
+    position: relative;
+    bottom: 347px;
+    left: 116px;
+}
+
+.your-destination-section .srilanka h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    bottom: 160px;
+    left: 130px;
+    position: relative;
+}
+
+.your-destination-section .north-america {
+    position: relative;
+    left: 516px;
+    bottom: 669px;
+}
+
+.your-destination-section .north-america h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 160px;
+    left: 133px;
+}
+
+.your-destination-section .kasmir {
+    position: relative;
+    left: 1017px;
+    bottom: 994px;
+}
+
+.your-destination-section .kasmir h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 162px;
+    left: 92px;
+}
+
+.your-destination-section .bangladesh {
+    position: relative;
+    bottom: 1003px;
+    left: 120px;
+}
+
+.your-destination-section .bangladesh h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 160px;
+    left: 146px;
+}
+
+.your-destination-section .bandarban {
+    position: relative;
+    left: 620px;
+    bottom: 1340px;
+}
+
+.your-destination-section .bandarban h3 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    position: relative;
+    bottom: 175px;
+    left: 271px;
+}
+
+
+/* css for "choose us section" start  */
+/* .choose-us-section {
+    margin-top: 
+} */
+.choose-us-section h2 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.choose-us-section p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    text-align: center;
+    font-family: Mulish;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.choose-us-section .hotel-map {
+    display: flex;
+    margin-top: 70px;
+}
+
+.choose-us-section .hotel-map .hotel {
+    margin-left: 199px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background-color: rgba(251, 181, 99, 0.05);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 55px;
+    padding-bottom: 32px;
+    border-radius: 16px;
+}
+
+.choose-us-section .hotel-map .hotel h3 {
+    margin-top: 21px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.choose-us-section .hotel-map .hotel p {
+    text-align: left;
+    margin-top: 12px;
+}
+
+.choose-us-section .hotel-map .map {
+    margin-left: 24px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 55px;
+    padding-bottom: 32px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    border-radius: 16px;
+    background-color: rgba(41, 206, 246, 0.05);
+}
+
+.choose-us-section .hotel-map .map h3 {
+    color: #131318;
+    margin-top: 21px;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.choose-us-section .hotel-map .map p {
+    text-align: left;
+    margin-top: 12px;
+}
+
+
+
+.choose-us-section .price-tag {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 32px;
+    padding-right: 55px;
+    background-color: rgba(233, 68, 68, 0.05);
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    border-radius: 16px;
+    margin-top: 24px;
+    margin-left: 451px;
+    margin-right: 451px;
+}
+.choose-us-section .price-tag h3 {
+    color: #131318;
+    font-size: 24px;
+    font-family: Mulish;
+    font-weight: 800;
+    margin-top: 21px;
+}
+
+.choose-us-section .price-tag p {
+    text-align: left;
+    margin-top: 12px;
+}
+/* css for "choose us section" end  */
+
+
+/* css for "deals and discount" section start  */
+.deals-discount-section {
+    margin-top: 100px;
+}
+
+.deals-discount-section h2 {
+    text-align: center;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.deals-discount-section p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 29px;
+}
+
+.deals-discount-section .maldives-bg {
+    background-image: url('../images/maldives-srilanka-bg.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-left: 130px;
+}
+.deals-discount-section .tour-maldives {
+    display: inline-block;
+    padding-left: 50px; 
+    padding-right: 75px;
+    padding-bottom: 50px;
+    border: 2px solid #FFF;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    border-radius: 16px;
+    margin-left: 575px;
+    background-color: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.deals-discount-section .tour-maldives h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.deals-discount-section .tour-maldives p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-family: Mulish;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.deals-discount-section .tour-maldives h4 {
+    color: #FF5400;
+    font-size: 20px;
+    font-family: Mulish;
+    font-weight: 800;
+    margin-top: 16px;
+}
+
+.deals-discount-section .tour-maldives button {
+    margin-top: 24px;
+    color: #FFF;
+    padding: 14px 25px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #FF5400;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.deals-discount-section .indonesia-bg {
+    background-image: url('../images/indonesia-bg.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-top: 25px;
+    margin-left: 130px;
+}
+
+.deals-discount-section .tour-indonesia {
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 75px; 
+    padding-bottom: 50px;
+    border: 2px solid #FFF;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    border-radius: 16px;
+    margin-left: 55px;
+    background-color: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.deals-discount-section .tour-indonesia h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;   
+}
+
+.deals-discount-section .tour-indonesia p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-family: Mulish;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.deals-discount-section .tour-indonesia h4 {
+    color: #FF5400;
+    font-size: 20px;
+    font-family: Mulish;
+    font-weight: 800;
+    margin-top: 16px;
+}
+
+.deals-discount-section .tour-indonesia button {
+    margin-top: 24px;
+    color: #FFF;
+    padding: 14px 25px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #FF5400;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0px;    
+}
+
+.deals-discount-section .srilanka-bg {
+    background-image: url('../images/maldives-srilanka-bg.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin-top: 25px;
+    margin-left: 130px;
+}
+
+.deals-discount-section .tour-srilanka {
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 75px; 
+    padding-bottom: 50px;
+    border: 2px solid #FFF;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    border-radius: 16px;
+    margin-left: 588px;
+    background-color: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.deals-discount-section .tour-srilanka h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;   
+}
+
+.deals-discount-section .tour-srilanka p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-family: Mulish;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.deals-discount-section .tour-srilanka h4 {
+    color: #FF5400;
+    font-size: 20px;
+    font-family: Mulish;
+    font-weight: 800;
+    margin-top: 16px;
+}
+
+.deals-discount-section .tour-srilanka button {
+    margin-top: 24px;
+    color: #FFF;
+    padding: 14px 25px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #FF5400;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.deals-discount-section .all-packages-btn {
+    margin-top: 48px;
+    color: #FFF;
+    margin-left: 620px;
+    padding: 14px 25px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #FF5400;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0px;
+}
+/* css for "deals and discount" section end  */
+
+
+/* css for "perfect place" start  */
+.perfect-place {
+    display: flex;
+    margin-top: 120px;
+}
+
+.perfect-place h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 160px;
+}
+
+.perfect-place p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 160px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.perfect-place ul li {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 190px;
+    margin-bottom: 16px;
+}
+
+.perfect-place button {
+    color: #FFF;
+    padding: 14px 25px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #FF5400;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0px;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.perfect-place img {
+    margin-left: 30px;
+}
+
+.perfect-place h3 {
+    position: relative;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+    right: 415px;
+    top: 197px;
+}
+/* css for perfect place section end  */
+
+
+/* css for "newsletter" section start  */
+.newsletter-section {
+    display: flex;
+    margin-top: 100px;
+}
+
+.newsletter-section .subscribe-part {
+    display: inline-block;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+    margin-left: 130px;
+}
+
+.newsletter-section .subscribe-part h4 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.newsletter-section .subscribe-part p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 21px;
+    margin-bottom: 19px;
+}
+
+.newsletter-section .subscribe-part hr {
+    background-color: rgba(19, 19, 24, 0.10);
+    margin-bottom: 24px;
+}
+
+.newsletter-section .subscribe-part input {
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 164px 16px 20px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: rgba(19, 19, 24, 0.05);
+    margin-bottom: 16px;
+}
+
+.newsletter-section .subscribe-part button {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    padding: 14px 147px 14px 147px;
+    font-weight: 800;
+    border-radius: 8px;
+    border: 0px;
+    background-color: #FF5400;
+}
+
+.newsletter-section img {
+    margin-left: 24px;
+}
+
+.newsletter-section .savings-part {
+    background-color: #FF5400;
+    position: relative;
+    display: inline-block;
+    top: 300px;
+    right: 250px;
+
+    border: 1px solid red;
+    /* bottom: 140px; */
+    padding-top: 30px;
+    /* padding-bottom: 10px; */
+    margin-bottom: 410px;
+    border-radius: 16px;
+    transform: rotate(-19.628deg);
+    /* margin-bottom: 40px; */
+}
+
+.newsletter-section .savings-part h6 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+    transform: rotate(-19.628deg);
+    /* padding-right: 30px; */
+    /* padding-top: 30px; */
+    /* padding-bottom: 20px; */
+    margin-right: 50px;
+    /* padding: 56px 119px 97px 103px; */
+}
+
+.newsletter-section .savings-part h2 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 800;
+    transform: rotate(-19.628deg);
+    padding-bottom: 60px;
+    margin-left: 20px;
+    /* padding-left: 10px; */
+    /* padding: 67px 45px 35px 56px; */
+}
+/* css for newsletter section end */
+
+
+/* css for footer section start  */
+.footer {
+    margin-top: 100px;
+    background-color: rgba(19, 19, 24, 0.05);
+
+}
+
+.footer .footer-travel {
+    display: flex;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+    align-items: center;
+    gap: 16px;
+    margin-left: 530px;
+    padding-top: 110px;
+}
+
+.footer .footer-travel .span-travel {
+    color: #FF5400;
+    font-family: Mulish;
+}
+
+.footer p {
+    color: #5A5A5D;;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 33px;
+}
+
+.footer svg {
+    margin-left: 621px;
+}
+
+.footer hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 27%;
+    margin-right: 27%;
+    background-color: rgba(19, 19, 24, 0.10);
+}
+
+.footer h6 {
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* css for mobile responsive  */
+@media screen and (max-width: 576px) {
+    
 }
