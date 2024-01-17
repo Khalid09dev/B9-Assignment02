@@ -495,6 +495,13 @@ header {
     backdrop-filter: blur(2.5px);
 }
 
+.deals-discount-section .tour-maldives .time-member-location {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
 .deals-discount-section .tour-maldives h3 {
     color: #131318;
     font-family: Mulish;
@@ -555,6 +562,13 @@ header {
     backdrop-filter: blur(2.5px);
 }
 
+.deals-discount-section .tour-indonesia .time-member-location {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
 .deals-discount-section .tour-indonesia h3 {
     color: #131318;
     font-family: Mulish;
@@ -613,6 +627,13 @@ header {
     margin-left: 588px;
     background-color: rgba(255, 255, 255, 0.80);
     backdrop-filter: blur(2.5px);
+}
+
+.deals-discount-section .tour-srilanka .time-member-location {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .deals-discount-section .tour-srilanka h3 {
